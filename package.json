@@ -1,0 +1,16 @@
+{
+  "name": "rdkafka-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:producer": "node ./producer/producer.js",
+    "start:consumer": "node ./consumer/consumer.js"
+  },
+  "author": "ritulsingh",
+  "license": "ISC",
+  "dependencies": {
+    "node-rdkafka": "^2.14.0"
+  }
+}
